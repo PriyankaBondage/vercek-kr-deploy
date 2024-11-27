@@ -78,7 +78,7 @@ function TestimonialComp() {
 
             >
                 {data?.map((authorData) => (
-                    <SwiperSlide key={authorData.id}>
+                    <SwiperSlide key={authorData?.id}>
                         <div className="text-center p-4 flex justify-between gap-5">
                             <Image
                                 className="rounded-full object-contain"

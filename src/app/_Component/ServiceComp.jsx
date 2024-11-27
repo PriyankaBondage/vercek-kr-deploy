@@ -39,7 +39,7 @@ function ServiceComp() {
 
 
                         {service?.slice(0, 2)?.map((blogData, i) => (
-                            <div className={blogs.blog_title}>
+                            <div className={blogs.blog_title} key={i}>
 
                                 <div className={blogs.blogcard}>
 
@@ -73,7 +73,7 @@ function ServiceComp() {
                     <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-6 justify-items-center'>
 
                         {service?.slice(2)?.map((blogData, i) => (
-                            <div className={blogs.blogcard}>
+                            <div className={blogs.blogcard} key={i}>
                                 
                                 <h3 className='text-lg text-red-600 font-semibold mt-3'>{blogData?.post_author}</h3>
                                 <Link href={`/report/${blogData?.post_content}`}>

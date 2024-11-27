@@ -42,7 +42,7 @@ function Baner() {
         className="flex transition-transform duration-500 ease-in-out"
         style={{ transform: `translateX(-${currentSlide * 100}%)` }}
       >
-        {slides.map((slide, index) => (
+        {slides?.map((slide, index) => (
           <div key={index} className="w-full flex-shrink-0 relative h-[450px] sm:h-[300px] sm:w-full ">
             <Image
               src={slide.src}
