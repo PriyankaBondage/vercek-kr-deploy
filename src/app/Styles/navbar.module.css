@@ -1,0 +1,42 @@
+/* 
+
+.logo {
+    height: auto;
+  padding: 15px 15px ;
+  align-items: center;
+   
+    width: 150px;
+
+  
+  }
+
+  .brand{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+  } */
+
+  .brand {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 150px;
+  }
+  
+  .logo {
+    max-width: 150px;
+    padding: 15px 15px ;
+    align-items: center;
+    width: 100%;
+  }
+  
+
+@media (max-width:768px){
+    .search{
+        width: 10 0%;;
+    }
+
+    .listdata{
+        display: none;
+    }
+}

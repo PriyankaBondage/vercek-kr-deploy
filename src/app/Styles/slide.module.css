@@ -1,0 +1,10 @@
+/* Change the color of pagination dots to red */
+.custom-swiper .swiper-pagination-bullet {
+    background-color: red; /* Default state */
+  }
+  
+  /* Add hover or active state customization if needed */
+  .custom-swiper .swiper-pagination-bullet-active {
+    background-color: darkred; /* Active state */
+  }
+

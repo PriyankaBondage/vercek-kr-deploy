@@ -1,0 +1,28 @@
+.blogcard{
+    width: 260px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+border: 1px solid red;
+border-radius: 15px ;
+    background-color: azure;
+ 
+}
+.blog_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+/* .maincard{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 25px;
+  
+} */
+
+
